@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./img/Anotação 2021-01-07 194558.png">
+    <link rel="stylesheet" href="../Projeto La Pelle/styles.css">
+    <title>Document</title>
+</head>
+<body>
+     <header id="navbar">
+        <nav>
+            <ul id="navbar-list">
+                <li><a href="#">MAQUIAGENS</a></li>
+                <li><a href="#">BOCA</a></li>
+                <li><a href="#">OLHOS</a></li>
+                <li><a href="#">ROSTO</a></li>
+                <li><a href="#">PROTEÇÃO</a></li>
+                <div id="search">
+                    <input type="text" id="txtSearch" placeholder="Buscar..."/><button id="btnSearch">Pesquisar</button>
+                </div>
+            </ul>
+        </nav>
+     </header>
+     <!-- -->
+     <div class="slider">
+
+        <div class="slides">
+            <!---->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!---->
+            <div class="slide first">
+                <img src="/Projeto La Pelle/img/img01.jpg" alt="img1">
+            </div>
+            <div class="slide">
+                <img src="/Projeto La Pelle/img/img02.jpg" alt="img2">
+            </div>
+            <div class="slide">
+                <img src="/Projeto La Pelle/img/img03.jpg" alt="img3">
+            </div>
+            <div class="slide">
+                <img src="/Projeto La Pelle/img/img04.jpg" alt="img4">
+            </div>
+            <!---->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!---->
+        </div>
+        <!---->
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+     </div>
+
+     <main>
+        <div id="main-banner">
+            <div id="banner-info">
+                <h1>Realce sua beleza com La Pelle<br>Mais que beleza, proteção!</h1>
+            </div>
+        </div>
+     </main>
+     <!-- -->
+     <section id="products-section">
+        <h2>Veja as últimas novidades !</h2>
+        <div class="products-container">
+            <div class="products-box product01"></div>
+            <div class="products-box product02"></div>
+            <div class="products-box product03"></div>
+            <div class="products-box product04"></div>
+        </div>
+        <div class="products-container">
+            <div class="products-box product05"></div>
+            <div class="products-box product06"></div>
+            <div class="products-box product07"></div>
+            <div class="products-box product08"></div>
+        </div>
+     </section>
+     <!-- -->
+     <footer>
+        <h2>Contato</h2>
+        <p>Seja nosso revendedor e faça parte do time La Pelle!</p>
+        <form action="" method="">
+            <input type="text" name="name" placeholder="Seu nome">
+            <input type="email" name="email" placeholder="Seu e-mail">
+            <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <p1>Desenvolvido por <span class="detail">Lucas Costa Freitas</span></p1>
+     </footer>
+     <!-- -->
+     <script src="script.js"></script>
+</body>
+</html>
